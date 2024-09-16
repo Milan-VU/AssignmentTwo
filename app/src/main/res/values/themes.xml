@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme for the app -->
+    <style name="Theme.AssignmentTwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color (light blue) -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryDark">@color/light_blue</item>
+        <item name="colorAccent">@color/light_blue</item>
+
+        <!-- Background color (white) -->
+        <item name="android:colorBackground">@android:color/white</item>
+
+        <!-- Text color (black) -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+
+        <!-- EditText background color -->
+        <item name="android:editTextBackground">@color/gray</item>
+    </style>
+</resources>

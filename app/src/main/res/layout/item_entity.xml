@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for displaying a single entity item in a RecyclerView -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- TextView for displaying the artist name -->
+    <TextView
+        android:id="@+id/artistNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TextView for displaying the album title -->
+    <TextView
+        android:id="@+id/albumTitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Album Title"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/artistNameTextView"
+        android:layout_marginTop="4dp"/>
+
+    <!-- TextView for displaying the release year -->
+    <TextView
+        android:id="@+id/releaseYearTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Release Year"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/albumTitleTextView"
+        android:layout_marginTop="4dp"/>
+
+    <!-- TextView for displaying the genre -->
+    <TextView
+        android:id="@+id/genreTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Genre"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/releaseYearTextView"
+        android:layout_marginTop="4dp"/>
+
+    <!-- TextView for displaying the track count -->
+    <TextView
+        android:id="@+id/trackCountTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Track Count"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genreTextView"
+        android:layout_marginTop="4dp"/>
+
+    <!-- TextView for displaying the popular track -->
+    <TextView
+        android:id="@+id/popularTrackTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Popular Track"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/trackCountTextView"
+        android:layout_marginTop="4dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
