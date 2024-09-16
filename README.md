@@ -63,5 +63,5 @@ The project uses the following libraries and tools:
 
 ## Author
 - **Milan Mitrovic**
-- **s4663796:** 
+- **s4663796** 
 
